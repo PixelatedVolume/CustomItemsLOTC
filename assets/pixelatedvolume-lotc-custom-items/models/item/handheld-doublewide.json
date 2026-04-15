@@ -1,0 +1,24 @@
+{ "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 1.36, 1.36, 0.68 ]
+    , "rotation": [ 0, 90, -25 ]
+    , "translation": [ 1.13, 3.2, 1.13 ]
+    }
+  , "firstperson_righthand"
+  : { "scale": [ 1.36, 1.36, 0.68 ]
+    , "rotation": [ 0, -90, 25 ]
+    , "translation": [ 1.13, 3.2, 1.13 ]
+    }
+  , "thirdperson_lefthand"
+  : { "scale": [ 1.7, 1.7, 0.85 ]
+    , "rotation": [ 0, 90, -55 ]
+    , "translation": [ 0, 4.0, 0.5 ]
+    }
+  , "thirdperson_righthand"
+  : { "scale": [ 1.7, 1.7, 0.85 ]
+    , "rotation": [ 0, -90, 55 ]
+    , "translation": [ 0, 4.0, 0.5 ]
+    }
+  }
+, "parent": "pixelatedvolume-lotc-custom-items:item/doublewide"
+}

@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 53315
+, "parent": "pixelatedvolume-lotc-custom-items:item/handheld-doublewide"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/kwakanileh_sirame" }
+}

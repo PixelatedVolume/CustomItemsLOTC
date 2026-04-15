@@ -1,0 +1,5 @@
+{ "artist": "Frankdh"
+, "user": 64810
+, "parent": "pixelatedvolume-lotc-custom-items:item/guitar-style"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/banjo" }
+}

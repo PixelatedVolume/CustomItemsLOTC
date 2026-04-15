@@ -1,0 +1,19 @@
+{ "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 1.7, 1.7, 0.85 ]
+    , "rotation": [ 0, -175, 15 ]
+    , "translation": [ -4.5, 0.75, 2 ]
+    }
+  , "firstperson_righthand"
+  : { "scale": [ 1.36, 1.36, 0.68 ]
+    , "rotation": [ 30, 90, 15 ]
+    , "translation": [ 0, -2, 2 ]
+    }
+  , "thirdperson_lefthand"
+  : { "scale": [ 1.7, 1.7, 0.85 ]
+    , "rotation": [ 75, -180, 30 ]
+    , "translation": [ -2, 0, 1 ]
+    }
+  }
+, "parent": "pixelatedvolume-lotc-custom-items:item/centergrip-doublewide"
+}

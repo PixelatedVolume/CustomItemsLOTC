@@ -1,0 +1,23 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Ramis, The Golden Growth.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/ramis"
+        }
+      }
+    , { "regex": ".*Ceru'Celia.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/ceru_celia"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/golden_hoe" }
+  }
+, "oversized_in_gui": true
+}

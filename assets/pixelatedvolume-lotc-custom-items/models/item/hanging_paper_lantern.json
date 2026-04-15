@@ -1,0 +1,28 @@
+{ "artist": "PixelatedVolume"
+, "user": 97639
+, "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 0.68, 0.68, 0.68 ]
+    , "rotation": [ 0, -90, 0 ]
+    , "translation": [ 2, 3.2, 1.13 ]
+    }
+  , "firstperson_righthand"
+  : { "scale": [ 0.68, 0.68, 0.68 ]
+    , "rotation": [ 0, 90, 0 ]
+    , "translation": [ 2, 3.2, 1.13 ]
+    }
+  , "thirdperson_lefthand"
+  : { "scale": [ 0.85, 0.85, 0.85 ]
+    , "rotation": [ 0, -90, -55 ]
+    , "translation": [ 0, 4.0, 0.5 ]
+    }
+  , "thirdperson_righthand"
+  : { "scale": [ 0.85, 0.85, 0.85 ]
+    , "rotation": [ 0, 90, 70 ]
+    , "translation": [ 0, 2.5, 2.75 ]
+    }
+  }
+, "parent": "item/generated"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/hanging_paper_lantern" }
+}

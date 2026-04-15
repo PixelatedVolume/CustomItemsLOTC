@@ -1,0 +1,18 @@
+{ "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 1.5, 1.5, 1 ]
+    , "rotation": [ 0, -15, 0 ]
+    , "translation": [ -2, 4, 9 ]
+    }
+  , "firstperson_righthand"
+  : { "scale": [ 1.5, 1.5, 1 ]
+    , "rotation": [ 0, -15, -180 ]
+    , "translation": [ -2, -11, 9 ]
+    }
+  , "thirdperson_lefthand"
+  : { "rotation": [ 22, -60, 4 ], "translation": [ -4, 2, 6.5 ] }
+  , "thirdperson_righthand"
+  : { "rotation": [ 22, -60, -176 ], "translation": [ -3, -7.5, 4 ] }
+  }
+, "parent": "pixelatedvolume-lotc-custom-items:item/shield-aspis"
+}

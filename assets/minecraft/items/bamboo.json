@@ -1,0 +1,16 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*King of Clubs.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/lead_pipe"
+        }
+      }
+    ]
+  , "fallback": { "type": "minecraft:model", "model": "minecraft:item/bamboo" }
+  }
+, "oversized_in_gui": true
+}

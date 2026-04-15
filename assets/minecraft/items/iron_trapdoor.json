@@ -1,0 +1,19 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Buckler.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "minecraft:block/iron_trapdoor_bottom"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model"
+    , "model": "minecraft:block/iron_trapdoor_bottom"
+    }
+  }
+, "oversized_in_gui": true
+}

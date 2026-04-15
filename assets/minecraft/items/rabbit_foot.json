@@ -1,0 +1,17 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Lyre.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/lyre"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/rabbit_foot" }
+  }
+, "oversized_in_gui": true
+}

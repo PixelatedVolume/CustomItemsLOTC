@@ -1,0 +1,29 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Kwakwani.*s Wings.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/kwakwanis_wings"
+        }
+      }
+    , { "regex": ".*The Hornet.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/hornet"
+        }
+      }
+    , { "regex": ".*Slayersteel longsword.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/ayred_longsword"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/golden_sword" }
+  }
+, "oversized_in_gui": true
+}

@@ -1,0 +1,17 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Alonn'rhil.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/alonn_rhil"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/iron_pickaxe" }
+  }
+, "oversized_in_gui": true
+}

@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 80040
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-doublewide-shallow"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/marihn_mahaeonn" }
+}

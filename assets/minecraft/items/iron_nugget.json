@@ -1,0 +1,17 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Earth Ferrum Ring.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/earth_ferrum_ring"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/iron_nugget" }
+  }
+, "oversized_in_gui": true
+}

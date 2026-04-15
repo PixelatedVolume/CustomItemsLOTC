@@ -1,0 +1,6 @@
+{ "artist": "Evanuri"
+, "user": 93156
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-steep"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/buzzardserudition" }
+}

@@ -1,0 +1,29 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Orthae.*lorulm, The Sequoia Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/sequoia_staff"
+        }
+      }
+    , { "regex": ".*Rose's Memory.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/roses_memory"
+        }
+      }
+    , { "regex": ".*Phoenix.*s Gale.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/phoenixs_gale"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/diamond_hoe" }
+  }
+, "oversized_in_gui": true
+}

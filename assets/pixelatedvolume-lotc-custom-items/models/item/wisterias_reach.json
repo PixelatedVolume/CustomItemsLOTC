@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 115136
+, "parent": "minecraft:item/generated"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/wisterias_reach" }
+}

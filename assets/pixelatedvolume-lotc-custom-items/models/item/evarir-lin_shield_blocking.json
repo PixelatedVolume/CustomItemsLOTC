@@ -1,0 +1,6 @@
+{ "parent": "pixelatedvolume-lotc-custom-items:item/shield-aspis-blocking"
+, "textures"
+: { "0": "pixelatedvolume-lotc-custom-items:item/evarir-lin"
+  , "particle": "minecraft:block/iron_block"
+  }
+}

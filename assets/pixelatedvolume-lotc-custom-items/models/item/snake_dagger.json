@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 110958
+, "parent": "minecraft:item/generated"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/snake_dagger" }
+}

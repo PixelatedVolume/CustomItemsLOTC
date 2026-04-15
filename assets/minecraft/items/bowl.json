@@ -1,0 +1,16 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Drum.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/drum"
+        }
+      }
+    ]
+  , "fallback": { "type": "minecraft:model", "model": "minecraft:item/bowl" }
+  }
+, "oversized_in_gui": true
+}

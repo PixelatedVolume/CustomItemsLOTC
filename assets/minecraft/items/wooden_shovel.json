@@ -1,0 +1,41 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*(Bolomormaa's Ferocity|Slingshot).*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/slingshot"
+        }
+      }
+    , { "regex": ".*Lute.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/lute"
+        }
+      }
+    , { "regex": ".*Large Spoon.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/large_spoon"
+        }
+      }
+    , { "regex": ".*Guitar.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/guitar"
+        }
+      }
+    , { "regex": ".*Banjo.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/banjo"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/wooden_shovel" }
+  }
+, "oversized_in_gui": true
+}

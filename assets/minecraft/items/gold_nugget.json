@@ -1,0 +1,55 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Tahlia.*s Wedding Ring.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tahlia_wedding_ring"
+        }
+      }
+    , { "regex": ".*Medal for the Action of 11th Sun's Smile 1802 \\(neck\\).*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model"
+        : "pixelatedvolume-lotc-custom-items:item/participation_medal_neck"
+        }
+      }
+    , { "regex": ".*Medal for the Action of 11th Sun's Smile 1802.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/participation_medal"
+        }
+      }
+    , { "regex": ".*Blue Moon.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/blue_moon"
+        }
+      }
+    , { "regex": ".*Starlight Bay.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/starlight_bay"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:lore"
+    , "cases"
+    : [ { "regex": ".*bronze, hollow, almond shaped.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/snowfire_charm"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/gold_nugget" }
+    }
+  }
+, "oversized_in_gui": true
+}

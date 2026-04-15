@@ -1,0 +1,108 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Wisteria.*s Reach.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/wisterias_reach"
+        }
+      }
+    , { "regex": ".*Velulaei.*llyth.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/velulaei_llyth"
+        }
+      }
+    , { "regex": ".*Vassilios.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/vassilios"
+        }
+      }
+    , { "regex": ".*Tilru.*tuva.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tilru_tuva"
+        }
+      }
+    , { "regex": ".*Templar Bardiche.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/templar_bardiche"
+        }
+      }
+    , { "regex": ".*Spirit of Sonnos.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/spirit_of_sonnos"
+        }
+      }
+    , { "regex": ".*Sirame'igne.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/sirameigne"
+        }
+      }
+    , { "regex": ".*Mettabortu.*onn.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/mettabortuonn"
+        }
+      }
+    , { "regex": ".*Kwakwani.*s Flight.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/kwakwanis_flight"
+        }
+      }
+    , { "regex": ".*Fer.*ame ay Thulith.*Celia.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/ferame"
+        }
+      }
+    , { "regex": ".*The Bearclaw Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/bearclaw_staff"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:lore"
+    , "cases"
+    : [ { "regex": ".*Made for the hands of a matriarch loved .*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/paw_of_bolomormaa"
+          }
+        }
+      , { "regex": ".*Held in your hands is the legendary bec .*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/mordu_ferbilokina"
+          }
+        }
+      , { "regex": ".*An elegant bec de corbin of Elven design which.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/mordu_ferbilok"
+          }
+        }
+      , { "regex": ".*An Thanhic-Steel Bec De Corbin which.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/frostheart"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/iron_axe" }
+    }
+  }
+, "oversized_in_gui": true
+}

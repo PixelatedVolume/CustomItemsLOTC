@@ -1,0 +1,7 @@
+{ "artist": "PixelatedVolume"
+, "user": 124722
+, "parent": "pixelatedvolume-lotc-custom-items:item/bow-doublewide"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/berr_maln_bow_pulling_1"
+  }
+}

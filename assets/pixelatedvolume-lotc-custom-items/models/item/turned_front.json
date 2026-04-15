@@ -1,0 +1,24 @@
+{ "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 0.68, 0.68, 0.68 ]
+    , "rotation": [ 0, 0, -45 ]
+    , "translation": [ 1.13, 3.2, 1.13 ]
+    }
+  , "firstperson_righthand"
+  : { "scale": [ 0.68, 0.68, 0.68 ]
+    , "rotation": [ 0, 0, 45 ]
+    , "translation": [ 1.13, 3.2, 1.13 ]
+    }
+  , "thirdperson_lefthand"
+  : { "scale": [ 0.55, 0.55, 0.85 ]
+    , "rotation": [ 0, 0, -45 ]
+    , "translation": [ 0, 2, 1.25 ]
+    }
+  , "thirdperson_righthand"
+  : { "scale": [ 0.55, 0.55, 0.85 ]
+    , "rotation": [ 0, 0, 45 ]
+    , "translation": [ 0, 2, 1.25 ]
+    }
+  }
+, "parent": "minecraft:item/generated"
+}

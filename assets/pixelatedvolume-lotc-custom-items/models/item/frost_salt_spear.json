@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 118135
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-shallow"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/frost_salt_spear" }
+}

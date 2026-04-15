@@ -1,0 +1,8 @@
+{ "artist": "PixelatedVolume"
+, "user": 33705
+, "parent": "pixelatedvolume-lotc-custom-items:item/shield-aspis"
+, "textures"
+: { "0": "pixelatedvolume-lotc-custom-items:item/evarir-lin"
+  , "particle": "minecraft:block/iron_block"
+  }
+}

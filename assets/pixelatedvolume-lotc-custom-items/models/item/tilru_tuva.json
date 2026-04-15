@@ -1,0 +1,5 @@
+{ "artist": "PixelatedVolume"
+, "user": 110816
+, "parent": "minecraft:item/generated"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/tilru_tuva" }
+}

@@ -1,0 +1,17 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:lore"
+  , "cases"
+  : [ { "regex": ".*This dual headed warhammer stands at a towering.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/smash"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/wooden_pickaxe" }
+  }
+, "oversized_in_gui": true
+}

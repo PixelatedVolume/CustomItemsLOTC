@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 29968
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-doublewide-shallow"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/hinterland_staff" }
+}

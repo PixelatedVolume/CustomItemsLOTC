@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 123890
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-doublewide-steep"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/luaras_scorpion" }
+}

@@ -1,0 +1,18 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:lore"
+  , "cases"
+  : [ { "regex": ".*The blade of the tool is as wide as.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model"
+        : "pixelatedvolume-lotc-custom-items:item/coastal_siramenorite_adze"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:model", "model": "minecraft:item/stone_axe" }
+  }
+, "oversized_in_gui": true
+}

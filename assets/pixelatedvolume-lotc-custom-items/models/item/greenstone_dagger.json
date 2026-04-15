@@ -1,0 +1,6 @@
+{ "artist": "Pengin"
+, "user": 119155
+, "parent": "pixelatedvolume-lotc-custom-items:item/handheld-doublewide"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/greenstone_dagger" }
+}
