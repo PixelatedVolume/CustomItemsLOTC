@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 123890
+, "parent": "pixelatedvolume-lotc-custom-items:item/handheld-playable"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/cloud_string_lyre" }
+}

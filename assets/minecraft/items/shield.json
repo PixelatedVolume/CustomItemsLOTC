@@ -1,0 +1,60 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:lore"
+  , "cases"
+  : [ { "regex": ".*A large, circular aspis shield of elven make..*"
+      , "model"
+      : { "type": "minecraft:condition"
+        , "property": "minecraft:using_item"
+        , "on_false"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/evarir-lin"
+          }
+        , "on_true"
+        : { "type": "minecraft:model"
+          , "model"
+          : "pixelatedvolume-lotc-custom-items:item/evarir-lin_shield_blocking"
+          }
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:custom_name"
+    , "cases"
+    : [ { "regex": ".*Adunian Shield.*"
+        , "model"
+        : { "type": "minecraft:condition"
+          , "property": "minecraft:using_item"
+          , "on_false"
+          : { "type": "minecraft:model"
+            , "model": "pixelatedvolume-lotc-custom-items:item/adunian_shield"
+            }
+          , "on_true"
+          : { "type": "minecraft:model"
+            , "model"
+            : "pixelatedvolume-lotc-custom-items:item/adunian_shield_blocking"
+            }
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:condition"
+      , "property": "minecraft:using_item"
+      , "on_false"
+      : { "type": "minecraft:special"
+        , "model": { "type": "minecraft:shield" }
+        , "base": "minecraft:item/shield"
+        }
+      , "on_true"
+      : { "type": "minecraft:special"
+        , "model": { "type": "minecraft:shield" }
+        , "base": "minecraft:item/shield_blocking"
+        }
+      }
+    }
+  }
+, "oversized_in_gui": true
+}

@@ -1,0 +1,28 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Carved Wyvern Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/wyvern_staff"
+        }
+      }
+    , { "regex": ".*Queen of Clubs.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/whalebone_staff"
+        }
+      }
+    , { "regex": ".*The Deadbeat.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/crackadonk_cane"
+        }
+      }
+    ]
+  , "fallback": { "type": "minecraft:model", "model": "minecraft:item/bone" }
+  }
+, "oversized_in_gui": true
+}

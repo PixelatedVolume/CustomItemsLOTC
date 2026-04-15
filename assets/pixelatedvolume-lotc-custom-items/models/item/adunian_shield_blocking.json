@@ -1,0 +1,18 @@
+{ "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 2, 2, 1 ]
+    , "rotation": [ 0, 0, 0 ]
+    , "translation": [ -1, -4, -3 ]
+    }
+  , "firstperson_righthand"
+  : { "scale": [ 2, 2, 1 ]
+    , "rotation": [ 0, 0, 0 ]
+    , "translation": [ -1, -4, -3 ]
+    }
+  , "thirdperson_lefthand"
+  : { "rotation": [ 33.5, -45, 0 ], "translation": [ 2, 1, 2.5 ] }
+  , "thirdperson_righthand"
+  : { "rotation": [ 33.5, -45, 0 ], "translation": [ 2, 1, 2.5 ] }
+  }
+, "parent": "pixelatedvolume-lotc-custom-items:item/adunian_shield"
+}

@@ -1,0 +1,65 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Staff of Soaring Eagles.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/staff_soaring_eagles"
+        }
+      }
+    , { "regex": ".*Shepherd.*s Crook.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/shepherds_crook"
+        }
+      }
+    , { "regex": ".*Spear of the Raven.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/raven_spear"
+        }
+      }
+    , { "regex": ".*Elihn.*tennallar.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/elihn_tennallar"
+        }
+      }
+    , { "regex": ".*Drum Mallet.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/drum_mallet"
+        }
+      }
+    , { "regex": ".*Of Dragons and Eagle Talons.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/dragon_eagle_talons"
+        }
+      }
+    , { "regex": ".*Crow Sounder.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/crow_sounder"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:lore"
+    , "cases"
+    : [ { "regex": ".*A typical Bo-staff..*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/woodland_winds"
+          }
+        }
+      ]
+    , "fallback": { "type": "minecraft:model", "model": "minecraft:item/stick" }
+    }
+  }
+, "oversized_in_gui": true
+}

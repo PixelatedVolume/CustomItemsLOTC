@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 119155
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-shallow"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/bone_whaling_spear" }
+}

@@ -1,0 +1,36 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*<> Sula.*s Dagger <>.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/sulas_dagger"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:lore"
+    , "cases"
+    : [ { "regex": ".*Carved out of ivory, a strange dagger.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/yulntur"
+          }
+        }
+      , { "regex": ".*An odd knife with a curved blade, similar.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/yulnikurn"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/stone_sword" }
+    }
+  }
+, "oversized_in_gui": true
+}

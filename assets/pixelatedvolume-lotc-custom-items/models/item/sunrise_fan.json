@@ -1,0 +1,5 @@
+{ "artist": "PixelatedVolume"
+, "user": 108741
+, "parent": "pixelatedvolume-lotc-custom-items:item/handheld-doublewide"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/sunrise_fan" }
+}

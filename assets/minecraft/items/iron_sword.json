@@ -1,0 +1,232 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:lore"
+  , "cases"
+  : [ { "regex": ".*This pristine double edged long sword is covered.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tyzdoyol"
+        }
+      }
+    , { "regex": ".*The glaive of the Everwinter Druid.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/everwinters_embrace"
+        }
+      }
+    , { "regex": ".*The speartip of the weapon now held in your hands.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/celianhsil"
+        }
+      }
+    , { "regex": ".*Mavallumn, kathir.*amemanor.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/amaelaurir"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:custom_name"
+    , "cases"
+    : [ { "regex": ".*Urthir Heavy Glaive.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/urthir_glaive"
+          }
+        }
+      , { "regex": ".*Taynei's Fang.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/tayneis_fang"
+          }
+        }
+      , { "regex": ".*Star-Steel Longsword.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model"
+          : "pixelatedvolume-lotc-custom-items:item/starsteel_longsword"
+          }
+        }
+      , { "regex": ".*A Spear Point Dagger.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/spearpoint_dagger"
+          }
+        }
+      , { "regex": ".*Ferrum and Silver Snake Dagger.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/snake_dagger"
+          }
+        }
+      , { "regex": ".*Siru.*ceru.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/siruceru"
+          }
+        }
+      , { "regex": ".*The Silencer.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/silencer"
+          }
+        }
+      , { "regex": ".*Ceru Ito Amaethon'leh.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/pointed_glaive"
+          }
+        }
+      , { "regex": ".*Nightshade.*s Vision.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/nightshade_vision"
+          }
+        }
+      , { "regex": ".*Ikurn Marmasil.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/ikurn_marmasil"
+          }
+        }
+      , { "regex": ".*Mamoru.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/mamoru"
+          }
+        }
+      , { "regex": ".*Life.*s Dream.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/lifes_dream"
+          }
+        }
+      , { "regex": ".*Kwakwani.*s Deception.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model"
+          : "pixelatedvolume-lotc-custom-items:item/kwakwanis_deception"
+          }
+        }
+      , { "regex": ".*Evergreen Kuila Scimitar.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/kuila_scimitar"
+          }
+        }
+      , { "regex": ".*Kina.*kathir.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/kina_kathir"
+          }
+        }
+      , { "regex": ".*Ironwood Dirk.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/ironwood_dirk"
+          }
+        }
+      , { "regex": ".*Spirit of the Wildwood.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/hinterland_staff"
+          }
+        }
+      , { "regex": ".*Spirit of the Hinterland.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/hinterland_staff"
+          }
+        }
+      , { "regex": ".*Fenn.*tuveh.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/fenn_tuveh"
+          }
+        }
+      , { "regex": ".*Fenn.*othelu.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/fenn_othelu"
+          }
+        }
+      , { "regex": ".*Emerald Spear of the Coyote.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model"
+          : "pixelatedvolume-lotc-custom-items:item/emerald_coyote_spear"
+          }
+        }
+      , { "regex": ".*Eldarian.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/eldarian"
+          }
+        }
+      , { "regex": ".*Echilibru.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/echilibru"
+          }
+        }
+      , { "regex": ".*The Dagger of Death.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/dagger_of_death"
+          }
+        }
+      , { "regex": ".*Dance o.* th.* Stars \\[Cutlass\\].*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/cutlass"
+          }
+        }
+      , { "regex": ".*Caerme'onn Wind.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/caermeonn_wind"
+          }
+        }
+      , { "regex": ".*Caecus, the Blind Man.*s Blade.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/caecus"
+          }
+        }
+      , { "regex": ".*Averil.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/averil"
+          }
+        }
+      , { "regex": ".*Aurelion's Longsword.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model"
+          : "pixelatedvolume-lotc-custom-items:item/aurelions_longsword"
+          }
+        }
+      , { "regex": ".*Arauhnethil.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/arauhnethil"
+          }
+        }
+      , { "regex": ".*Aquiron \\[Wavy Dagger\\].*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/aquiron"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/iron_sword" }
+    }
+  }
+, "oversized_in_gui": true
+}

@@ -1,0 +1,5 @@
+{ "artist": "PixelatedVolume"
+, "user": 33705
+, "parent": "pixelatedvolume-lotc-custom-items:item/handheld-doublewide"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/amaelaurir" }
+}

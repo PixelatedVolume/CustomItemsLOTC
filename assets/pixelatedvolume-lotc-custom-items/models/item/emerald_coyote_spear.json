@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 110015
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-shallow"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/emerald_coyote_spear" }
+}

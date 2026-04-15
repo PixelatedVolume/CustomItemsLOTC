@@ -1,0 +1,98 @@
+{ "artist": "Nikophos"
+, "user": 58372
+, "elements"
+: [ { "faces"
+    : { "down": { "texture": "#2", "uv": [ 11.5, 0.5, 11, 1 ] }
+      , "east": { "texture": "#2", "uv": [ 12, 0, 11.5, 0.25 ] }
+      , "north": { "texture": "#2", "uv": [ 12, 0.5, 11.5, 0.75 ] }
+      , "south": { "texture": "#2", "uv": [ 12, 0.75, 11.5, 1 ] }
+      , "up": { "texture": "#2", "uv": [ 11.5, 0, 11, 0.5 ] }
+      , "west": { "texture": "#2", "uv": [ 12, 0.25, 11.5, 0.5 ] }
+      }
+    , "from": [ 7, 26, 7 ]
+    , "to": [ 9, 27, 9 ]
+    }
+  , { "faces"
+    : { "down": { "texture": "#2", "uv": [ 9.5, 1.25, 11, 2.5 ] }
+      , "east": { "texture": "#2", "uv": [ 7, 0, 8.25, 1.75 ] }
+      , "north": { "texture": "#2", "uv": [ 7, 1.75, 8.25, 3.5 ] }
+      , "south": { "texture": "#2", "uv": [ 8.25, 1.75, 9.5, 3.5 ] }
+      , "up": { "texture": "#2", "uv": [ 9.5, 0, 11, 1.25 ] }
+      , "west": { "texture": "#2", "uv": [ 8.25, 0, 9.5, 1.75 ] }
+      }
+    , "from": [ 5, 20, 1 ]
+    , "to": [ 11, 27, 6 ]
+    }
+  , { "faces"
+    : { "down": { "texture": "#2", "uv": [ 5.5, 1.25, 7, 2.5 ] }
+      , "east": { "texture": "#2", "uv": [ 3, 0, 4.25, 1.75 ] }
+      , "north": { "texture": "#2", "uv": [ 3, 1.75, 4.25, 3.5 ] }
+      , "south": { "texture": "#2", "uv": [ 4.25, 1.75, 5.5, 3.5 ] }
+      , "up": { "texture": "#2", "uv": [ 5.5, 0, 7, 1.25 ] }
+      , "west": { "texture": "#2", "uv": [ 4.25, 0, 5.5, 1.75 ] }
+      }
+    , "from": [ 5, 20, 10 ]
+    , "to": [ 11, 27, 15 ]
+    }
+  , { "faces"
+    : { "down": { "texture": "#2", "uv": [ 13, 0, 12, 1 ] }
+      , "east": { "texture": "#2", "uv": [ 15, 1.25, 16, 2.5 ] }
+      , "north": { "texture": "#2", "uv": [ 14, 1, 15, 2 ] }
+      , "south": { "texture": "#2", "uv": [ 14, 0, 15, 1 ] }
+      , "up": { "texture": "#2", "uv": [ 14, 1, 13, 0 ] }
+      , "west": { "texture": "#2", "uv": [ 15, 0, 16, 1.25 ] }
+      }
+    , "from": [ 6, 21, 6 ]
+    , "to": [ 10, 26, 10 ]
+    }
+  , { "faces"
+    : { "down": { "texture": "#2", "uv": [ 2.5, 0, 3, 0.5 ] }
+      , "east": { "texture": "#2", "uv": [ 0.5, 0, 1, 6 ] }
+      , "north": { "texture": "#2", "uv": [ 0, 0, 0.5, 6 ] }
+      , "south": { "texture": "#2", "uv": [ 1, 0, 1.5, 6 ] }
+      , "up": { "texture": "#2", "uv": [ 2, 0, 2.5, 0.5 ] }
+      , "west": { "texture": "#2", "uv": [ 2, 0, 1.5, 6 ] }
+      }
+    , "from": [ 7, -11, 7 ]
+    , "to": [ 9, 21, 9 ]
+    }
+  ]
+, "display"
+: { "firstperson_lefthand"
+  : { "scale": [ 0.85, 0.85, 0.85 ], "translation": [ 3.5, 0, 0 ] }
+  , "firstperson_righthand"
+  : { "scale": [ 0.85, 0.85, 0.85 ]
+    , "rotation": [ 6, 6, -17 ]
+    , "translation": [ 0, -1.5, 0 ]
+    }
+  , "fixed": { "scale": [ 1.7, 1.7, 1.7 ], "rotation": [ -90, 45, 90 ] }
+  , "ground"
+  : { "scale": [ 0.5, 0.5, 0.5 ]
+    , "rotation": [ -45, 0, 0 ]
+    , "translation": [ 0, 3, 0 ]
+    }
+  , "gui"
+  : { "scale": [ 0.6, 0.6, 0.6 ]
+    , "rotation": [ 15, 54, -55 ]
+    , "translation": [ -1, -1.75, 0 ]
+    }
+  , "thirdperson_lefthand"
+  : { "scale": [ 1, 1, 1 ]
+    , "rotation": [ 50, 15, 0 ]
+    , "translation": [ 0, 0, 2 ]
+    }
+  , "thirdperson_righthand"
+  : { "scale": [ 1, 1, 1 ], "translation": [ 0, 0, 1.5 ] }
+  }
+, "groups"
+: [ { "children": [ 0, 1, 2, 3 ]
+    , "color": 0
+    , "name": "group"
+    , "origin": [ 0, 0, 0 ]
+    }
+  , 4
+  ]
+, "texture_size": [ 64, 64 ]
+, "textures"
+: { "2": "pixelatedvolume-lotc-custom-items:item/smash3d", "particle": "#2" }
+}

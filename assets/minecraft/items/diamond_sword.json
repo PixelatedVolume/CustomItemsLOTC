@@ -1,0 +1,30 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:lore"
+  , "cases"
+  : [ { "regex": ".*Forged in the wyldflames of.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/blue_horn"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:custom_name"
+    , "cases"
+    : [ { "regex": ".*D E S T I N E D .* W O E.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/destined_woe"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/diamond_sword" }
+    }
+  }
+, "oversized_in_gui": true
+}

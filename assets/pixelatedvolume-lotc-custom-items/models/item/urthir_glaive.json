@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 107384
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-shallow"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/urthir_glaive" }
+}

@@ -1,0 +1,19 @@
+{ "display"
+: { "fixed"
+  : { "scale": [ 2, 2, 1.0 ]
+    , "rotation": [ 0, 180, 0 ]
+    , "translation": [ 0, 0, 0 ]
+    }
+  , "ground"
+  : { "scale": [ 1, 1, 0.5 ]
+    , "rotation": [ 0, 0, 0 ]
+    , "translation": [ 0, 4, 0 ]
+    }
+  , "gui"
+  : { "scale": [ 2, 2, 1 ]
+    , "rotation": [ 0, 0, 0 ]
+    , "translation": [ 0, 0, 0 ]
+    }
+  }
+, "parent": "minecraft:item/generated"
+}

@@ -1,0 +1,9 @@
+{ "display"
+: { "thirdperson_lefthand"
+  : { "scale": [ 3.4, 3.4, 0.85 ]
+    , "rotation": [ 0, -90, -105 ]
+    , "translation": [ 0, 6.5, 13.375 ]
+    }
+  }
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-doublewide"
+}

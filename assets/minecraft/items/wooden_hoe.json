@@ -1,0 +1,206 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Marihn Mahae'onn.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/marihn_mahaeonn"
+        }
+      }
+    , { "regex": ".*Woodland.*s Enchantment.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model"
+        : "pixelatedvolume-lotc-custom-items:item/woodlands_enchantment"
+        }
+      }
+    , { "regex": ".*\\[MArt 64\\] V.*ki, The Eternal Familiar.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/vaki"
+        }
+      }
+    , { "regex": ".*Tennallar.*onn.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tennallaronn"
+        }
+      }
+    , { "regex": ".*The Tauren Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tauren_staff"
+        }
+      }
+    , { "regex": ".*Ahe.*ethe Tali.*inder.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tanila_staff"
+        }
+      }
+    , { "regex": ".*Sakura Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/sakura_staff"
+        }
+      }
+    , { "regex": ".*Rover.*s Stick.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/rovers_stick"
+        }
+      }
+    , { "regex": ".*Red Serpent Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/red_serpent_staff"
+        }
+      }
+    , { "regex": ".*Quarterstaff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/quarterstaff"
+        }
+      }
+    , { "regex": ".*Staff of Orison's Hearth.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/orisons_hearth_staff"
+        }
+      }
+    , { "regex": ".*The Monkey's Cohort.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/monkey_cohort"
+        }
+      }
+    , { "regex": ".*The Lensuloem Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/lensuloem_staff"
+        }
+      }
+    , { "regex": ".*Karinah.*ento.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/karinahento"
+        }
+      }
+    , { "regex": ".*Igne'sae.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/igne_sae"
+        }
+      }
+    , { "regex": ".*Hummingbird.*s Grace.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/hummingbirds_grace"
+        }
+      }
+    , { "regex": ".*Hiylun'Taynei.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/hiylun_tanyei"
+        }
+      }
+    , { "regex": ".*Hileia, Staff of the Owl Druid.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/hileia"
+        }
+      }
+    , { "regex": ".*Elk Bone Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/elk_bone_staff"
+        }
+      }
+    , { "regex": ".*Elesulcelia Oranniler.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model"
+        : "pixelatedvolume-lotc-custom-items:item/elesulcelia_oranniler-hoe"
+        }
+      }
+    , { "regex": ".*Crystal Flower.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/crystal_flower"
+        }
+      }
+    , { "regex": ".*The Clover.*s Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/clovers_staff"
+        }
+      }
+    , { "regex": ".*Chirr.*leh Tillural.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/chirrleh_tillural"
+        }
+      }
+    , { "regex": ".*Celestial Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/celestial_staff"
+        }
+      }
+    , { "regex": ".*Buzzard's Erudition.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/buzzardserudition"
+        }
+      }
+    , { "regex": ".*The Bruin's Guide.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/bruins_guide"
+        }
+      }
+    , { "regex": ".*Asul.*luer of The West.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/asulluer"
+        }
+      }
+    , { "regex": ".*Arhilc.*on, the Fair Prince.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/arhilcoon"
+        }
+      }
+    , { "regex": ".*Amaethon.*s Horn.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/amaethons_horn"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:lore"
+    , "cases"
+    : [ { "regex": ".*A walking stave for a young drui' dedicant!.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/natures_calling"
+          }
+        }
+      , { "regex": ".*A staff carved from a date palm that was.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/naglenlhimlug"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/wooden_hoe" }
+    }
+  }
+, "oversized_in_gui": true
+}

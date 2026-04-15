@@ -1,0 +1,78 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*The Winter Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/winter_staff"
+        }
+      }
+    , { "regex": ".*Tiger Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/tiger_staff"
+        }
+      }
+    , { "regex": ".*Staff of the Deer.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/staff_deer"
+        }
+      }
+    , { "regex": ".*Princeguard's Spear.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/princeguard_spear"
+        }
+      }
+    , { "regex": ".*Staff of Luminosity.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/luminosity_staff"
+        }
+      }
+    , { "regex": ".*Kar'nath'leh Riv.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/karnathleriv"
+        }
+      }
+    , { "regex": ".*Ame.*akal, The Fox.*s Staff.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/foxs_staff"
+        }
+      }
+    , { "regex": ".*Igne.*tallihnsil.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/boomsteel_orb_staff"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "inexactcit:match"
+    , "property": "minecraft:component"
+    , "component": "minecraft:lore"
+    , "cases"
+    : [ { "regex": ".*.... .. ......-.....\\. V...-.... ...... ...... .....*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/esse"
+          }
+        }
+      , { "regex": ".*A 6.*2.* tall staff roughly 1.* in diameter,.*"
+        , "model"
+        : { "type": "minecraft:model"
+          , "model": "pixelatedvolume-lotc-custom-items:item/midnight"
+          }
+        }
+      ]
+    , "fallback"
+    : { "type": "minecraft:model", "model": "minecraft:item/iron_hoe" }
+    }
+  }
+, "oversized_in_gui": true
+}

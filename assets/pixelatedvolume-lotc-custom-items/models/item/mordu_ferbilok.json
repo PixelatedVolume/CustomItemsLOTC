@@ -1,0 +1,6 @@
+{ "artist": "Nikophos"
+, "user": 120108
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-steep"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/mordu_ferbilok" }
+}

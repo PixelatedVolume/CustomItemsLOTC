@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 118135
+, "parent": "pixelatedvolume-lotc-custom-items:item/cane"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/crackadonk_cane" }
+}

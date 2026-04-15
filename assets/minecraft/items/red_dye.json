@@ -1,0 +1,16 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*A Red Rose Pin.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/rose_pin"
+        }
+      }
+    ]
+  , "fallback": { "type": "minecraft:model", "model": "minecraft:item/red_dye" }
+  }
+, "oversized_in_gui": true
+}

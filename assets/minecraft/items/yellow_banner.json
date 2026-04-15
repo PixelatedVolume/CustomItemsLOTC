@@ -1,0 +1,20 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:lore"
+  , "cases"
+  : [ { "regex": ".*Multiple layers of thick, flattened bamboo.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/sunrise_fan"
+        }
+      }
+    ]
+  , "fallback"
+  : { "type": "minecraft:special"
+    , "model": { "type": "minecraft:banner", "color": "yellow" }
+    , "base": "minecraft:item/template_banner"
+    }
+  }
+, "oversized_in_gui": true
+}

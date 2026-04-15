@@ -1,0 +1,5 @@
+{ "artist": "PixelatedVolume"
+, "user": 101105
+, "parent": "pixelatedvolume-lotc-custom-items:item/turned_front"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/slingshot" }
+}

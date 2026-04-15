@@ -1,0 +1,6 @@
+{ "artist": "PixelatedVolume"
+, "user": 58372
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-steep"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/orisons_hearth_staff" }
+}

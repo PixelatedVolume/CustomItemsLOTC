@@ -1,0 +1,14 @@
+{ "display"
+: { "thirdperson_lefthand"
+  : { "scale": [ 1.7, 1.7, 0.85 ]
+    , "rotation": [ 0, -90, -105 ]
+    , "translation": [ 0, 1, 4.8 ]
+    }
+  , "thirdperson_righthand"
+  : { "scale": [ 1.7, 1.7, 0.85 ]
+    , "rotation": [ 0, 90, 105 ]
+    , "translation": [ 0, 1, 4.8 ]
+    }
+  }
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole"
+}

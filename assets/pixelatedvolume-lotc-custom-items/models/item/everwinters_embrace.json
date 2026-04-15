@@ -1,0 +1,6 @@
+{ "artist": "Pengin"
+, "user": 119155
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-steep"
+, "textures"
+: { "layer0": "pixelatedvolume-lotc-custom-items:item/everwinters_embrace" }
+}

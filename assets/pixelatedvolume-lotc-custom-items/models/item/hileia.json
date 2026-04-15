@@ -1,0 +1,5 @@
+{ "artist": "PixelatedVolume"
+, "user": 106261
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-steep"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/hileia" }
+}

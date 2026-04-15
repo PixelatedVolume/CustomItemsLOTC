@@ -1,0 +1,5 @@
+{ "artist": "PixelatedVolume"
+, "user": 29968
+, "parent": "pixelatedvolume-lotc-custom-items:item/pole-shallow"
+, "textures": { "layer0": "pixelatedvolume-lotc-custom-items:item/esse" }
+}

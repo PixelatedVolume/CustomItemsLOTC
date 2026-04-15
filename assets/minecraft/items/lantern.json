@@ -1,0 +1,30 @@
+{ "model"
+: { "type": "inexactcit:match"
+  , "property": "minecraft:component"
+  , "component": "minecraft:custom_name"
+  , "cases"
+  : [ { "regex": ".*Hanging Paper Lantern.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model"
+        : "pixelatedvolume-lotc-custom-items:item/hanging_paper_lantern"
+        }
+      }
+    , { "regex": ".*Firefly Wand.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model": "pixelatedvolume-lotc-custom-items:item/firefly_wand"
+        }
+      }
+    , { "regex": ".*Elesulcelia Oranniler.*"
+      , "model"
+      : { "type": "minecraft:model"
+        , "model"
+        : "pixelatedvolume-lotc-custom-items:item/elesulcelia_oranniler-lantern"
+        }
+      }
+    ]
+  , "fallback": { "type": "minecraft:model", "model": "minecraft:item/lantern" }
+  }
+, "oversized_in_gui": true
+}
